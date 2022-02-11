@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <style>
+        .element {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Introduction to HTML</h1>
+    <p> Read about <a href="/">Sunflower</a></p>
+
+
+    <ol>
+        <li>HTML stands for Hypertext markup language.</li>
+        <li>HTML boiler plate first start from !DOCTYPE html.</li>
+        <li><b>!DOCTYPE html</b>- It is nothing but telling browser that what document type you are using.</li>
+        <li> Every HTML page has one body and one head.</li>
+        <li><b>Title-</b> It set the title in the browser toolbar .</li>
+        <li><b>Body-</b>Whatever written inside body part will get display on the webpage.</li>
+
+    </ol>
+    <p> Paragraph tag is used to written paragraph inside it.</p>
+
+    </p>
+    <hr>
+
+
+    <h1>@ Heading </h1>
+    <h1> h1-It is highest heading among all</h1>
+    <h2> h2-It is second highest heading tag</h2>
+    <h3> h3-It is the third highest heading tag</h3>
+    <h4> h4-It is fourth highest heading tag</h4>
+    <h5> h5-It is fifth highest heading tag</h5>
+    <h6> h6-It is smallest heading tag</h6>
+    <small>Small tag- is used to get smaller size compared to normal size text.</small><br>
+    <b>b tag- is used to make statement bold</b>
+    <hr>
+
+    <h1>@ List </h1>
+    <h3>1. Unordered List</h3>
+    <ul>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Forth</li>
+        <li>Fifth</li>
+    </ul>
+    <h3> 2. Ordered List</h2>
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Forth</li>
+            <li>Fifth</li>
+
+
+        </ol>
+        <h3> 3. Nested List</h3>
+        <h4>A] Ordered list containing unordered list</h4>
+        <ol>
+            <li>HTML</li>
+            <ul>
+                <li>Tags</li>
+                <li>Opening Tags</li>
+                <li>Closing Tags</li>
+            </ul>
+            <li>CSS</li>
+            <li>Javascipt</li>
+        </ol>
+        <h4>B] Un-Ordered list containing ordered list</h4>
+        <ul>
+            <li>HTML</li>
+            <ol>
+                <li>Tags</li>
+                <li>Opening Tags</li>
+                <li>Closing Tags</li>
+            </ol>
+            <li>CSS</li>
+            <li>Javascipt</li>
+        </ul>
+        <hr>
+        <h3> @ Anchor Tag</h3>
+        <p> It is basically used to create hyperlink. We have to add url in href . href stands for hypertext reference.
+        </p>
+        <a href="https://www.google.co.in/" target="blank" title="go to google.com">GOOGLE</a>
+        <p> This link will put you on another page created by you.</p>
+        <a href="Project.html">Projects</a>
+        <p>Another demo of anchor tag that it will redirect you to sunflower images by clicking on word sunset</p><br>
+        <p>Sunset, also known as sundown, <a
+                href="https://www.google.com/search?q=sunset+images&oq=sunset+images&aqs=chrome..69i57.3044j0j4&sourceid=chrome&ie=UTF-8">sunset</a>is
+            the daily disappearance of the Sun below the horizon due to Earth's rotation. As viewed from everywhere on
+            Earth (except the North and South poles), the equinox Sun sets due west at the moment of both the Spring and
+            Autumn equinox. As viewed from the Northern Hemisphere, the sun sets to the northwest (or not at all) in the
+            Northern hemisphere's spring and summer, and to the southwest in the autumn and winter; these seasons are
+            reversed for the Southern Hemisphere.</p>
+        <hr>
+        <h3>@ Image</h3>
+        <p> To put image inside image use img tag and inside src put your image name. alt -is used as text describation
+            of the image. If image is broken then and only then whatever written in alt will be visible.</p>
+        <img src="sunset.jpg" alt="sunset image">
+        <hr>
+        <p> Insert page using copying image address</p>
+        <img src="https://thumbs.dreamstime.com/z/sunset-splash-hawaii-34260078.jpg" width=20% height=30%
+            alt="sunset image">
+        <p> Below image is broken as their is no image file saved as image.jpg</p>
+        <img src="image.jpg" alt="broken image">
+        <hr>
+        <h3>@ comment</h3>
+        <p> Comment is basically informtion that coder write in the code . At same time , that written part is not
+            visible on webpage</p>
+        <!-- There are two kinds of comment . One is single comment and other one is multiple comment -->
+        <hr>
+        <h3>@ HTML5</h3>
+        <b>DOCTYPE HTML</b> is html5 syntax. It is nothing but newer version of html. Syntax to define older version of
+        html is quite different and compplicated than this one. HTML5 will just have an additional features in
+        previously existed one.
+        <hr>
+        <h3>@ Div and Span Element</h3>
+        <div class="element"> Hi ! Vaishnavi Thakare here </div>
+        <span class="element">Hi ! Vaishnavi Thakare here </span>
+        <hr>
+        <h3> Hr, Br, Superscript, Subscript</h3>
+        <p>The molecular formula of water is H<sub>2</sub>O</p>
+        <p> On 2<sup>nd</sup>oct , this event occure.</p>
+        <h3> @ HTML Entity</h3>
+        <p>Less than symbol-(entity Number) &#60;, Greater than symbol-&#62;,Copywrite symbol (entity name) -&copy;
+            ,Registered Trademark- &reg;</p>
+        <hr>
+        <h3> @ Semantic HTML</h3>
+        <a href="https://medium.com/" target="blank"> medium.com</a>
+        <a href="https://inviqa.com/blog/web-accessibility-examples-5-sites-doing-it-right" target="blank">Screen
+            reader</a>
+        <hr>
+        <h3> @ Semantic Element</h3>
+        <p> On same page- go to line no 17</p>
+        <h4> 1. Navigation bar</h4>
+        <ul>
+
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="blog.html">Blog</a></li>
+
+        </ul>
+        <h4>2. section element</h4>
+        <section>First power generation
+            The first organization to develop practical nuclear power was the U.S. Navy, with the S1W reactor for the
+            purpose of propelling submarines and aircraft carriers. The first nuclear-powered submarine, USS Nautilus,
+            was put to sea in January 1954.[9][10] The S1W reactor was a Pressurized Water Reactor. This design was
+            chosen because it was simpler, more compact, and easier to operate compared to alternative designs, thus
+            more suitable to be used in submarines. This decision would result in the PWR being the reactor of choice
+            also for power generation, thus having a lasting impact on the civilian electricity market in the years to
+            come.[11]
+
+        </section>
+        <div>
+            On June 27, 1954, the Obninsk Nuclear Power Plant in the USSR became the world's first nuclear power plant
+            to generate electricity for a power grid, producing around 5 megawatts of electric power.[12] The world's
+            first commercial nuclear power station, Calder Hall at Windscale, England was connected to the national
+            power grid on 27 August 1956. In common with a number of other generation I reactors, the plant had the dual
+            purpose of producing electricity and plutonium-239, the latter for the nascent nuclear weapons program in
+            Britain.[13]
+
+
+        </div>
+        <h4>3.header and footer</h4>
+        <a href="https://stripe.com/in">website has header and footer</a>
+        <h4>4.Article</h4>
+        <a
+            href="https://soul-dogs-inc.org/blog/?gclid=Cj0KCQiAjJOQBhCkARIsAEKMtO0MaLrEZHsH-5pKME2cCPDqUYnGV8yevT7LPEha-gSRrxmqgzvUIRIaAto0EALw_wcB">Article</a>
+        <h4>footer</h4>
+        <footer>
+            <ul>Contacts
+                <li><a href="/" target="blank">Linkedin profile</a></li>
+                <li><a href="/" target="blank">github profile </a></li>
+                <li><a href="/" target="blank">naukari profile</a></li>
+            </ul>
+        </footer>
+        <hr>
+        <header>
+            <h1>Header heading</h1>
+            <img src="sunset.jpg">
+        </header>
+        <hr>
+        <h4>Time element</h4>
+        <p> Today date is <time datetime="2022-02-11">11th feb</time></p>
+        <hr>
+        <h4> Figure element</h4>
+        <figure>
+            <img src="sunset.jpg" alt="sunset image">
+            <figcaption>Sunset picture</figcaption>
+        </figure>
+        <hr>
+
+        <hr>
+        <table>
+            <thead>
+                <tr>
+
+                    <th>Sr.No</th>
+                    <th>Name</th>
+                    <th>Contact</th>
+                    <th>Email</th>
+
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Vaishnavi Thakare</td>
+                    <td>8308411260</td>
+                    <td>vaishnavithakare@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Pratik Thakare</td>
+                    <td>8308411260</td>
+                    <td>vaishnavithakare@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Vaishnavi Thakare</td>
+                    <td>8308411260</td>
+                    <td>vaishnavithakare@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>Pratik Thakare</td>
+                    <td>8308411260</td>
+                    <td>vaishnavithakare@gmail.com</td>
+                </tr>
+
+            </tbody>
+
+
+            <tfoot>
+                <tr>
+                    <th>sum</th>
+                    <td>100</td>
+                    <td>1000</td>
+                    <td>7800</td>
+
+                </tr>
+            </tfoot>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Sr.NO</th>
+                        <th colspan="2">Math</th>
+                        <th colspan="2">Science</th>
+                        <th colspan="2">Physics</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>max </td>
+                        <td>min</td>
+                        <td>max </td>
+                        <td>min</td>
+                        <td>max </td>
+                        <td>min</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>50 </td>
+                        <td>15</td>
+                        <td>50 </td>
+                        <td>15</td>
+                        <td>50</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td colspan="2">50 </td>
+                        <td colspan="2">15</td>
+                        <td colspan="2">50 </td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td colspan="2">40 </td>
+                        <td colspan="2">10</td>
+                        <td colspan="2">30 </td>
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td colspan="2">50 </td>
+                        <td colspan="2">15</td>
+                        <td colspan="2">50 </td>
+
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td colspan="2">40 </td>
+                        <td colspan="2">10</td>
+                        <td colspan="2">30 </td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </table>
+        <hr>
+        <h4>@ Form and input type, labels</h4>
+        <!-- <b>I dont understand action in form </b> -->
+        <button>Outside the form </button>
+        <!-- It will not submit the form . -->
+        <form action="/tacos">
+            <button type="button">Inside the form (Dont submit)</button>
+            <!-- I dont want to submit the form . I just want that button to behave like a normal button so i put type as button -->
+            <button type="submit">Inside the form (I want to submit the form)</button>
+            <!-- I want to submit the form by using this button . It can be done with or without submit button -->
+
+            <label for="number-1">Enter your number</label>
+            <input type="number" placeholder="Enter your  number" id="number-1" name="number">
+            <label for="number-2">Enter color of your choice </label>
+            <input type="color" placeholder="Enter color of your choice  " id="number-2" name="color">
+            <input type="submit">
+
+           
+
+        </form>
+        <hr>
+        <h4>Button</h4>
+        <p>Button inside the form </p>
+        <button>Click Me </button>
+        <input type="button" value="click me!">
+        <!-- Actually dont understand what is use of value -->
+        <hr>
+        <h4>Hijacking Search</h4>
+        <form action="https://www.google.com/search
+        ">
+            <label for="search">What you want to search</label>
+            <input id="search" name="q" placeholder="Search here">
+            <button>Seach on Google</button>
+        </form>
+        <hr>
+        <form action="https://www.youtube.com/results">
+            <label for="search">Search </label>
+            <input type="text" id="search" name="search_query">
+            <button>Youtube Search</button>
+        </form>
+        <hr>
+        <hr>
+        <h4>@ CheckBoxes, Radio Button, </h4>
+        <form action="searching">
+            <input id="input-1" name="Service-is-done" type="checkbox" checked >
+            <label for="input-1">HTML</label>
+            <input id="input-1" name="Service-is-done" type="checkbox"  >
+            <label for="input-1">CSS</label>
+            <input id="input-1" name="Service-is-done" type="checkbox"  >
+            <label for="input-1">JS</label>
+            <button>Submit</button>
+        </form>
+        <hr>
+        <h4>Quiz</h4>
+        <form action="Quiz">
+            <p>The hightest angle in right angled triangle ?</p>
+            <input id="angle" type="radio" name="angle" value="60">
+            <label for="angle">60</label>
+            <input id="angle" type="radio" name="angle" value="90">
+            <label for="angle">90</label>
+            <input id="angle" type="radio" name="angle" value="120">
+            <label for="angle">120</label>
+            <input id="angle" type="radio" name="angle" value="150">
+            <label for="angle">150</label>
+            <button>Result</button>
+            
+        </form>
+        <hr>
+        <h4>@ dropdown menu</h4>
+        <form action="Meal-menu">
+            <label for="food">Enter Your Choice</label>
+            <select name="food" id="food">
+                <option value=" ">Choose the option</option>
+                <option value="Roti">Roti</option>
+                <option value="Daal">Daal</option>
+                <option value="Paneer">Paneer</option>
+                <option value="sweet">sweet</option>
+                <!-- You can pre select an option just put selected in option tag -->
+
+            </select>
+            <button>Place Order </button>
+            
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
